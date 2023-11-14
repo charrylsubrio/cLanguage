@@ -15,7 +15,9 @@ int main() {
 	for (i = 1; i <= 10; i++) {
 		printf("Enter a number: ");
 		scanf("%d", &num);
+		
 		d = num * 2;
+		
 		printf("Double: %d\n\n", d);
 	}
 
