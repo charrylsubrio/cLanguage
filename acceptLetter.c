@@ -18,7 +18,7 @@ int main() {
 		
 		printf("Inputted: %c", letter);
 		
-		printf("\n\nInput Y to continue: ");
+		printf("\n\nPress Y to continue... ");
 		ans = getche();
 		
 		printf("\n\n");
