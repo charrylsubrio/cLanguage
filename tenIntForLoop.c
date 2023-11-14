@@ -1,7 +1,7 @@
 /*
 CHARRYL SUBRIO
 
-Write a program that accepts 10 integers from the user. 
+This program accepts 10 integers from the user. 
 The program should compute and display the double of each integer.
 
 November 14, 2023
