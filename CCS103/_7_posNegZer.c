@@ -1,11 +1,11 @@
 /*
 	7.)	Write a C program that accepts an integer from the user and checks whether the integer is positive, negative or zero.
-		It should display either "Positive", "Negative"or "Zero".
+		It should display either "Positive"Â, "Negative"Âor "Zero".
 */
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int num1;
 	
 	printf("Enter any number: ");
@@ -18,4 +18,6 @@ main() {
 	} else {
 		printf("\nZero");
 	}
+	
+	return 0;
 }
