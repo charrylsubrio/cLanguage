@@ -6,25 +6,27 @@
 
 #include <stdio.h>
 
-main() {
-	int num1, num2, num1B;
+int main() {
+	int num1, num2, temp;
 	
-	printf("Enter 1st number: ");
+	printf("Enter first number: ");
 	scanf("%d", &num1);
 	
-	printf("Enter 2nd number: ");
+	printf("Enter second number: ");
 	scanf("%d", &num2);
 	
-	num1B = num1;
+	temp = num1;
 	
 	printf("\nBefore Swap:");
 	printf("\nnum1 = %d", num1);
 	printf("\nnum2 = %d", num2);
 	
 	num1 = num2;
-	num2 = num1B;
+	num2 = temp;
 	
 	printf("\n\nAfter Swap:");
 	printf("\nnum1 = %d", num1);
 	printf("\nnum2 = %d", num2);
+
+	return 0;
 }
