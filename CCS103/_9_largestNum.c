@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int num1, num2, num3;
 	
 	printf("Enter 1st number: ");
@@ -25,4 +25,6 @@ main() {
 	} else {
 		printf("\n%d", num3);
 	}
+	
+	return 0;
 }
