@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int age;
 	
 	printf("Enter your age: ");
@@ -17,4 +17,6 @@ main() {
 	} else {
 		printf("\nSorry, you are not eligible to cast your vote");
 	}
+	
+	return 0;
 }
