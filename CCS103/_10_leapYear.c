@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int year;
 	
 	printf("Enter any year: ");
@@ -19,4 +19,6 @@ main() {
 	} else {
 		printf("\nNot a Leap Year");
 	}
+	
+	return 0;
 }
