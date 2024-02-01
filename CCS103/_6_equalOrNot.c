@@ -1,17 +1,17 @@
 /*
 	6.)	Write a C program to accept two integers and check whether they are equal or not.  
-		It should display “The integers are equal” or ““The integers are not equal”.
+		It should display â€œThe integers are equalâ€ or â€œThe integers are not equalâ€.
 */
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int num1, num2;
 	
-	printf("Enter 1st number: ");
+	printf("Enter first number: ");
 	scanf("%d", &num1);
 	
-	printf("Enter 2nd number: ");
+	printf("Enter second number: ");
 	scanf("%d", &num2);
 	
 	if(num1 == num2) {
@@ -19,4 +19,6 @@ main() {
 	} else {
 		printf("\nThe integers are not equal");
 	}
+	
+	return 0;
 }
