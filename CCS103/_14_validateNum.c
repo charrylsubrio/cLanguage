@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int num1;
 	
 	do {
@@ -19,4 +19,6 @@ main() {
 	} while (num1 <= 0);
 	
 	printf("\n%d", num1);
+
+	return 0;
 }
