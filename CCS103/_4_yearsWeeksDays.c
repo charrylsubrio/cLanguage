@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int numDays, numDays2, years, weeks, days;
 	
 	printf("Enter number of Days: ");
@@ -36,4 +36,6 @@ main() {
 	numDays -= days * 1;
 	
 	printf("\n%d days = %d year/s, %d week/s, %d day/s", numDays2, years, weeks, days);
+
+	return 0;
 }
