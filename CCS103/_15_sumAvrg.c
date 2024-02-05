@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int num1, sum = 0, counter = 0, avrg;
 	
 	do {
@@ -23,4 +23,6 @@ main() {
 	
 	printf("\nSum = %d", sum);
 	printf("\nAverage = %d", avrg);
+
+	return 0;
 }
