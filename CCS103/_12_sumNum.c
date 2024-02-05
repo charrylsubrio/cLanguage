@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int i, sum = 0;
 	
 	printf("The first 10 natural number: ");
@@ -18,6 +18,6 @@ main() {
 	}
 	
 	printf("\n\nThe sum is: %d", sum);
+
+	return 0;
 }
-
-
