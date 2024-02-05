@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int num1, num2;
 	float sum, difference, product, quotient, modulus;
 	
@@ -26,4 +26,6 @@ main() {
 	printf("\nProduct = %.2f", product);
 	printf("\nQuotient = %.2f", quotient);
 	printf("\nModulus = %.2f", modulus);  
+
+	return 0;
 }
