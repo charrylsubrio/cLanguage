@@ -4,7 +4,7 @@
 		The program should display the inputted principal, time, rate and the calculated simple interest.
 */
 
-main() {
+int main() {
 	float P, T, R, interest;
 	
 	printf("Enter Principal: ");
@@ -22,4 +22,6 @@ main() {
 	printf("\nTime = %.2f", T);
 	printf("\nRate = %.2f", R);
 	printf("\nSimple Interest = %.2f", interest);
+
+	return 0;
 }
