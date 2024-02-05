@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	float rad, dia, cir, area;
 	
 	printf("Enter the radius of the circle: ");
@@ -18,4 +18,6 @@ main() {
 	printf("\nDiameter= %.2f", dia);
 	printf("\nCircumference= %.2f", cir);
 	printf("\nArea= %.2f", area);
+
+	return 0;
 }
