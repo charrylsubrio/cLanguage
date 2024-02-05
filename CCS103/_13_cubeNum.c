@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
 	int terms, i, cube;
 	
 	printf("Input number of terms: ");
@@ -22,4 +22,6 @@ main() {
 		cube = i * i * i;
 		printf("\nNumber is: %d and cube of the %d is: %d", i, i, cube);
 	}
+
+	return 0;
 }
