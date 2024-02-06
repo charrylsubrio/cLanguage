@@ -15,15 +15,14 @@
 int main() {
 	int terms, i, cube;
 	
-	printf("Input number of terms: ");
-	
 	do {	
+		printf("Input number of terms: ");
+		
 		if(scanf("%d", &terms) != 1 || terms <= 0) {
 			fflush(stdin);
 			printf("\nPlease enter a positive number only.\nPress any key to re-input ... ");
 			getch();
 			system("cls");
-			printf("Input number of terms: ");
 		}
 		
 	} while(terms <= 0);
