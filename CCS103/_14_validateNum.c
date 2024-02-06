@@ -11,11 +11,14 @@ int main() {
 	
 	do {
 		printf("Enter any positive number: ");
-		scanf("%d", &num1);
 		
-		if(num1 <= 0) {
-			printf("\nPlease input a positive number only\n\n");
+		if(scanf("%d", &num1) != 1 || num1 <= 0) {
+			fflush(stdin);
+			printf("\nPlease input a positive number only.\nPress any key to re-input ... ");
+			getch();
+			system("cls");
 		}
+
 	} while (num1 <= 0);
 	
 	printf("\n%d", num1);
