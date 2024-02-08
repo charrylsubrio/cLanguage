@@ -4,15 +4,15 @@
 int main() {
 	float base, power, powR;
 	
-	printf("Enter first number: ");
+	printf("Enter base number: ");
 	scanf("%f", &base);
 	
-	printf("Enter second number: ");
+	printf("Enter power number: ");
 	scanf("%f", &power);
 	
 	powR = pow(base, power);
 	
-	printf("\n%.2f to the power of %.2f = %.2f", base, power, powR);
+	printf("\n%.2f raise to the power of %.2f = %.2f", base, power, powR);
 	
-	return 0; 
+	return 0;
 }
