@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float acceptDistance();
+float acceptDistance(void);
 float computeMiles(float);
 float computeMeters(float);
 void displayDistance(float, float, float);
@@ -17,7 +17,7 @@ int main() {
 	return 0;
 }
 
-float acceptDistance() {
+float acceptDistance(void) {
 	float kilo;
 	
 	printf("Enter Distance in Kilometers: ");
